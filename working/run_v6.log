@@ -1,0 +1,59 @@
+C:\Users\srika\Downloads\eris_bridge\solution_v6.py:311: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(DEV.type == "cuda"))
+C:\Users\srika\Downloads\eris_bridge\solution_v6.py:361: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(DEV.type == "cuda")):
+C:\Users\srika\Downloads\eris_bridge\solution_v6.py:402: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(DEV.type == "cuda")):
+
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+loaded (1108, 288, 288, 3) (1108, 16, 8, 8) t=72
+   ep 1/1 loss 1.7238 t=715
+probe: 14 steps, median 0.140s/step -> 8.5s/epoch
+sec/ep 8.5 avail 2025 -> folds 5 epochs 47 scale 1.000
+fold 0 epochs 47 n=886 t=715
+   ep 1/47 loss 1.6754 t=727
+   ep 9/47 loss 1.3504 t=828
+   ep 17/47 loss 1.2925 t=928
+   ep 25/47 loss 1.2202 t=1031
+   ep 33/47 loss 1.1695 t=1140
+   ep 41/47 loss 1.1119 t=1246
+   ep 47/47 loss 1.1039 t=1321
+  measured 11.1s/epoch -> replan 31 epochs/fold
+fold 1 epochs 31 n=886 t=1321
+   ep 1/31 loss 1.6303 t=1331
+   ep 9/31 loss 1.3441 t=1459
+   ep 17/31 loss 1.2546 t=1569
+   ep 25/31 loss 1.1559 t=1668
+   ep 31/31 loss 1.1344 t=1742
+  measured 12.6s/epoch -> replan 26 epochs/fold
+fold 2 epochs 26 n=886 t=1742
+   ep 1/26 loss 1.6475 t=1755
+   ep 9/26 loss 1.3649 t=1823
+   ep 17/26 loss 1.2515 t=1861
+   ep 25/26 loss 1.1852 t=1909
+   ep 26/26 loss 1.1824 t=1918
+  measured 9.1s/epoch -> replan 45 epochs/fold
+fold 3 epochs 45 n=887 t=1918
+   ep 1/45 loss 1.6143 t=1926
+   ep 9/45 loss 1.3466 t=1962
+   ep 17/45 loss 1.2659 t=2000
+   ep 25/45 loss 1.2178 t=2059
+   ep 33/45 loss 1.1315 t=2149
+   ep 41/45 loss 1.0649 t=2226
+   ep 45/45 loss 1.0449 t=2264
+  measured 8.2s/epoch -> replan 57 epochs/fold
+fold 4 epochs 57 n=887 t=2264
+   ep 1/57 loss 1.7076 t=2276
+   ep 9/57 loss 1.3570 t=2368
+   ep 17/57 loss 1.2766 t=2460
+   ep 25/57 loss 1.2174 t=2529
+   ep 33/57 loss 1.1522 t=2585
+   ep 41/57 loss 1.0710 t=2644
+   ep 49/57 loss 0.9815 t=2706
+   ep 57/57 loss 0.9529 t=2774
+oof rows 1108 t=2868
+iter 0 thr [0.55  0.725 0.9  ] wbin 0.10 oof 0.3735
+iter 1 thr [0.55  0.725 0.9  ] wbin 0.10 oof 0.3735
+OOF aff 0.7896 state 0.6929 bin 0.7320 prof 0.7115 raw 0.7366 FINAL 0.3735
+wrote working/submission_v6.csv (467, 2) models 5 total 3384s
+

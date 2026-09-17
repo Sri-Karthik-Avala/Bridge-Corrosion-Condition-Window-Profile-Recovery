@@ -1,0 +1,24 @@
+C:\Users\srika\Downloads\eris_bridge\solution_v4.py:307: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(DEV.type == "cuda"))
+C:\Users\srika\Downloads\eris_bridge\solution_v4.py:336: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(DEV.type == "cuda")):
+C:\Users\srika\Downloads\eris_bridge\solution_v4.py:366: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(DEV.type == "cuda")):
+
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+loaded (1108, 256, 256, 3) (1108, 16, 8, 8) t=84
+   ep 1/1 loss 1.9370 t=96
+sec/ep 70.4 avail 2424 -> folds 1 epochs 34 scale 1.000
+fold 0 epochs 34 n=831 t=96
+   ep 1/34 loss 1.6055 t=107
+   ep 9/34 loss 1.3019 t=187
+   ep 17/34 loss 1.2083 t=257
+   ep 25/34 loss 1.1156 t=306
+   ep 33/34 loss 0.9840 t=355
+   ep 34/34 loss 0.9770 t=360
+oof rows 277 t=362
+iter 0 thr [0.45  0.75  0.825] wbin 0.30 oof 0.3223
+iter 1 thr [0.45  0.75  0.825] wbin 0.30 oof 0.3223
+OOF aff 0.7582 state 0.6540 bin 0.6965 prof 0.6868 raw 0.7032 FINAL 0.3223
+wrote working/submission_v4.csv (467, 2) models 1 total 386s
+

@@ -1,0 +1,40 @@
+C:\Users\srika\Downloads\eris_bridge\solution.py:223: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(DEV.type == "cuda"))
+C:\Users\srika\Downloads\eris_bridge\solution.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(DEV.type == "cuda")):
+C:\Users\srika\Downloads\eris_bridge\solution.py:272: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(DEV.type == "cuda")):
+
+pip_system_certs: ERROR: could not inject truststore: [ASN1: NOT_ENOUGH_DATA] not enough data (_ssl.c:4030)
+loaded (1108, 256, 256, 3) (467, 256, 256, 3) t=3
+planned epochs 24 sec/ep 28.2
+ep 1 loss 1.0978 dt 28.2 elapsed 38
+ep 2 loss 0.8913 dt 27.5 elapsed 66
+ep 3 loss 0.8098 dt 26.3 elapsed 92
+ep 4 loss 0.7751 dt 26.5 elapsed 119
+ep 5 loss 0.7022 dt 26.3 elapsed 145
+ep 6 loss 0.6599 dt 26.6 elapsed 172
+ep 7 loss 0.6260 dt 26.4 elapsed 198
+ep 8 loss 0.5849 dt 26.4 elapsed 224
+ep 9 loss 0.5346 dt 26.4 elapsed 251
+ep 10 loss 0.4564 dt 26.5 elapsed 277
+ep 11 loss 0.4070 dt 26.4 elapsed 304
+ep 12 loss 0.3738 dt 26.4 elapsed 330
+ep 13 loss 0.3342 dt 26.5 elapsed 357
+ep 14 loss 0.2986 dt 26.5 elapsed 383
+ep 15 loss 0.2525 dt 26.4 elapsed 410
+ep 16 loss 0.2267 dt 26.6 elapsed 436
+ep 17 loss 0.1925 dt 27.0 elapsed 463
+ep 18 loss 0.1777 dt 26.0 elapsed 489
+ep 19 loss 0.1564 dt 26.6 elapsed 516
+ep 20 loss 0.1466 dt 27.2 elapsed 543
+ep 21 loss 0.1452 dt 26.4 elapsed 569
+ep 22 loss 0.1330 dt 25.2 elapsed 595
+ep 23 loss 0.1257 dt 24.3 elapsed 619
+ep 24 loss 0.1261 dt 24.2 elapsed 643
+iter 0 thr [0.275 0.875 0.65 ] val 0.4740
+iter 1 thr [0.275 0.875 0.65 ] val 0.4740
+iter 2 thr [0.275 0.875 0.65 ] val 0.4740
+VAL aff 0.8221 state 0.7642 bin 0.7826 prof 0.8155  raw 0.7958  FINAL 0.4740
+wrote working/submission.csv (467, 2) total 672s
+
